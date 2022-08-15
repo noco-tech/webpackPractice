@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 module.exports = {
-  mode: "devlopment",
+  // mode: "devlopment",
   devtool: "source-map",
   entry: "./src/javascripts/main.js",
   output: {
